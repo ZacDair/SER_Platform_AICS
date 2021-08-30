@@ -37,7 +37,7 @@ This repository contains the code to create and conduct emotion recognition expe
 |   |           |       03-01-01-01-02-02-01.wav
 
 ```
-**NOTE:** The DATASOURCE_NAME directory and DATASOURCE_KEYS.json are **important**
+**NOTE:** The DATASOURCE_NAME_DATA directory and DATASOURCE_KEYS.json are **important**
 
 2. Create a **DATASOURCE_NAME**_KEYS.json file (replacing **DATASOURCE_NAME** with the appropriate name)
     * For examples see [EMO_DB_KEYS.json](https://github.com/ZacDair/emo_detect/blob/main/datasources/EMO_DB/EMO_DB_KEYS.json) and [RAVDESS_KEYS.json](https://github.com/ZacDair/emo_detect/blob/main/datasources/RAVDESS/RAVDESS_KEYS.json)
