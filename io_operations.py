@@ -50,11 +50,53 @@ def loadDataset(filename, origin):
 def checkIfFileExists(filename, origin):
     # Join the paths
     saveLoc = os.path.join(config.cfg["dataset_save_loc"], origin)
-    filePath = os.path.join(saveLoc, filename+'.csv')
+    filePath = os.path.join(saveLoc, filename)
     if os.path.exists(filePath):
         return True
     else:
         return False
+
+
+# Save a dataset from Pandas Dataframe to specified location
+def savePickle(dataset, filename, origin):
+    print("Saving File ("+filename+")...")
+    # Join the paths
+    saveLoc = os.path.join(config.cfg["dataset_save_loc"], origin)
+    filePath = os.path.join(saveLoc, filename)
+
+    # Check existence of dataset directory (ie: RAVDESS or SAVEE etc)
+    if not os.path.exists(saveLoc):
+        print("IO Log - Save Directory was missing, now created.")
+        os.mkdir(saveLoc)
+
+    # Increment a counter and write the file preventing duplication
+    i = 1
+    while os.path.exists(filePath+".pickle"):
+        filePath = filePath+"-"+str(i)
+        i += 1
+
+    dataset.to_pickle(filePath+".pickle")
+    print("IO Log -", filePath+".pickle", "Saved to disk.")
+
+
+# Load a pickle file
+def loadPickle(filename, origin):
+    print("Loading File (" + filename + ")...")
+    # Join the paths
+    saveLoc = os.path.join(config.cfg["dataset_save_loc"], origin)
+    filePath = os.path.join(saveLoc, filename)
+
+    # Check existence of dataset directory (ie: RAVDESS or SAVEE etc)
+    if not os.path.exists(saveLoc):
+        print("IO ERROR - Save Directory ("+saveLoc+") was missing.")
+        exit(-1)
+
+    # Try and read the file
+    try:
+        return pd.read_pickle(filePath+".pickle")
+    except FileNotFoundError:
+        print("IO ERROR - File ("+filePath+".pickle) was not found.")
+        exit(-1)
 
 
 

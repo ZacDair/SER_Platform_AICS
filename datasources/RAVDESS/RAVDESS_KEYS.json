@@ -1,24 +1,32 @@
 {
 "delimiter": "-",
 "modality": {
-	"index": 0, "keyValue":{
+	"index": 0,
+	"size": 2,
+	"keyValue":{
 		"01": "full-AV", "02": "video-only", "03": "audio-only"
 	}
 },
 "emotion": {
-	"index": 2, "keyValue":{
+	"index": 2,
+	"size": 2,
+	"keyValue":{
 		"01": "neutral", "02": "calm", "03": "happy", "04": "sad", "05": "angry", "06": "fearful", "07": "disgust", "08": "surprised"
 	}
 
 },
-"statement": {
-	"index": 4, "keyValue":{
+"statements": {
+	"index": 4,
+	"size": 2,
+	"keyValue":{
 		"01": "Kids are talking by the door", "02": "Dogs are sitting by the door"
 	}
 
 },
 "gender": {
-	"index": 6, "keyValue":{
+	"index": 6,
+	"size": 2,
+	"keyValue":{
 		"01": "male",
 		"02": "female",
 		"03": "male",

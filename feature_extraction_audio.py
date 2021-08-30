@@ -1,15 +1,18 @@
 # External Imports
 import librosa
 import numpy as np
+import pandas as pd
 import time
-import inspect
 
 # Project Level Imports
 import config
 
+# Library Config
+np.set_printoptions(threshold=np.inf)
+
 
 def getRawAudioSignal(filepath, duration, sample_rate):
-    vector, sr = librosa.load(filepath, duration=duration, res_type=config.cfg["audio_res_type"])
+    vector, sr = librosa.load(filepath, duration=duration, res_type=config.cfg["audio_res_type"], sr=sample_rate)
     return vector, sr
 
 
@@ -31,13 +34,15 @@ def getFeaturesFromList(raw_audio_vector, featureList, argDict):
     res = {}
     for feature in featureList:
         try:
+            # Retrieve the Librosa function object
             func = config.cfg["audio_feature_funcs"][feature]
             if feature in argDict:
                 for arg in argDict[feature]:
                     setattr(func, arg, argDict[feature][arg])
 
-            res[feature] = func(raw_audio_vector)
-
+            # Run the function and store the result
+            res[feature] = np.mean(func(raw_audio_vector).T, axis=0).tolist()
+            
         except KeyError:
             print("ERROR - No Function found with name:", feature)
             config.showAudioExtractionFunctions()
@@ -45,25 +50,35 @@ def getFeaturesFromList(raw_audio_vector, featureList, argDict):
     return res
 
 
-def extractFeatures(dataDF, featureList, argDict, verbosity):
+def extractFeatures(dataDF, featureList, argDict, verbosity, sampleRate, duration):
     print("Starting audio feature extraction\nFeatures:", featureList)
     print("Warning - This may take some time...")
-    features = {}
+
+    df = pd.DataFrame(columns=featureList)
     for row in dataDF.itertuples():
         if verbosity:
             named_tuple = time.localtime()  # get struct_time
             time_string = time.strftime("%m/%d/%Y, %H:%M:%S", named_tuple)
             print("Extracting Features for:", row.Index, "at", time_string)
 
-        audioVector, sr = getRawAudioSignal(row.Index, 3, 25000)
-        features[row.Index] = getFeaturesFromList(audioVector, featureList, argDict)
+        audioVector, sr = getRawAudioSignal(row.Index, duration, sampleRate)
+        res = getFeaturesFromList(audioVector, featureList, argDict)
+        res['Index'] = row.Index
+
+        # Create the dataframe column by column
+        df = df.append(res, ignore_index=True)
 
         # Quit early for speed purposes in dev
-        if len(features) == config.cfg["dev_audio_limit"]:
+        if len(df) == config.cfg["dev_audio_limit"] and config.cfg["dev_audio_limit"] != 0:
             break
 
+
+    # Old dict to dataframe procedure
+    # dataDF['features'] = dataDF.index.map(features)
+
+    # Set the index column of the new DataFrame
+    df = df.set_index("Index")
     # Concat our new column of features for each audio file
-    dataDF['features'] = dataDF.index.map(features)
-    return dataDF
+    return pd.merge(dataDF, df, left_index=True, right_index=True)
 
 

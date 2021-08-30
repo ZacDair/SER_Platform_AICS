@@ -1,0 +1,28 @@
+{
+"delimiter": "",
+	"emotion": {
+		"index": 5,
+		"size": 1,
+		"keyValue":{
+			"W": "anger", "L": "boredom", "E": "disgust", "A": "anxiety/fear", "F": "happiness", "T": "sadness", "N": "neutral"
+		}
+
+	},
+	"statements": {
+		"index": 2,
+		"size":  3,
+		"keyValue":{
+			"a01": "The tablecloth is lying on the fridge",
+			"a02": "She wants to hand that in on Wednesday",
+			"a04" : "I could tell him Tonight",
+			"a05": "The black piece of paper is up there next to the piece of wood",
+			"a07": "It will be ready in seven hours",
+			"b01": "What kind of bags are there under the table",
+			"b02": "They just carried it up and now they're going down again",
+			"b03": "I used to go home on the weekends and visit Agnes",
+			"b09": "I want to take that away and then go have a drink with Karl",
+			"b10": "It will be in the place where we always put it"
+		}
+
+	}
+}

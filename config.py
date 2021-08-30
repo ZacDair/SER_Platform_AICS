@@ -12,11 +12,14 @@ Access to these values can be used by importing config.py
 
 cfg = {"datasource_path": "datasources",
        "dataset_save_loc": "datasets",
+       "results_save_loc": "results",
        "transcription_method": "google",
        "audio_res_type": "kaiser_best",
-       "dev_audio_limit": 5,
+       "dev_audio_limit": 0,
        "audio_feature_funcs": dict(inspect.getmembers(librosa.feature, inspect.isfunction))
 }
+
+runtimeCfg = {}
 
 
 def showAudioExtractionFunctions():

@@ -1,0 +1,536 @@
+,emotion,statements
+datasources\EMO_DB\EMO_DB_DATA\wav\03a01Fa.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\03a01Nc.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\03a01Wa.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\03a02Fc.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\03a02Nc.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\03a02Ta.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\03a02Wb.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\03a02Wc.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Ad.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Fd.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Lc.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Nc.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Ta.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Aa.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Fc.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Nd.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Tc.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Wa.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\03a07Fa.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\03a07Fb.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\03a07La.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\03a07Nc.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\03a07Wc.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Fa.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Lb.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Nb.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Td.wav,sadness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Wa.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b01Wc.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\03b02Aa.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\03b02La.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\03b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\03b02Tb.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\03b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\03b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\03b03Tc.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\03b03Wc.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\03b09La.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\03b09Nc.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\03b09Tc.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\03b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Ab.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Ec.wav,disgust,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Na.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Nc.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Wb.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\03b10Wc.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Ab.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Fd.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Lc.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Na.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Wa.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a01Wc.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Ab.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Ac.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Fe.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02La.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Na.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Tb.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a02Wc.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\08a04Ff.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\08a04La.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\08a04Nc.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\08a04Tb.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\08a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\08a05Fe.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\08a05Lc.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\08a05Nb.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\08a05Ta.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\08a05Wa.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07Fd.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07La.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07Na.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07Ta.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07Tb.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08a07Wc.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Aa.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Fd.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Fe.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Lb.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Na.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b01Wa.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\08b02Ff.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\08b02La.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\08b02Nb.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\08b02Tc.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\08b02Wd.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\08b03Fe.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\08b03Lc.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\08b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\08b03Tc.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\08b03Wd.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Ab.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Fd.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Lc.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Nb.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Tb.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b09Wc.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10Aa.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10Fd.wav,happiness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10La.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10Nc.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10Tc.wav,sadness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\08b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\09a01Ea.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\09a01Fa.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\09a01Nb.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\09a01Wb.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\09a02Ea.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\09a02Eb.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\09a02La.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\09a02Wb.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\09a04Fd.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\09a04La.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\09a04Nb.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\09a04Wa.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Ed.wav,disgust,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Lc.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Nb.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Tb.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a05Wc.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\09a07Eb.wav,disgust,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\09a07Na.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\09a07Ta.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\09a07Wb.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\09a07Wd.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\09b01Ea.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\09b01Na.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\09b01Wb.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\09b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\09b02Tb.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\09b02Wc.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\09b02Wd.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Ed.wav,disgust,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Fa.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Fd.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Lb.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Ta.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\09b09Ea.wav,disgust,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\09b09Nd.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\09b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\09b10Aa.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\09b10Nd.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\09b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\10a01Ac.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\10a01Nb.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\10a01Wa.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\10a02Ab.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\10a02Fa.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\10a02Lb.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\10a02Na.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\10a02Wa.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\10a04Fd.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\10a04Nb.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\10a04Wa.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\10a04Wb.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\10a05Aa.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\10a05Ld.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\10a05Tb.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\10a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\10a07Aa.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\10a07Ad.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\10a07La.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\10a07Ta.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\10a07Wb.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\10b01Aa.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\10b01Ea.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\10b01Fa.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\10b01Lb.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\10b02Aa.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\10b02La.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\10b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\10b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\10b03La.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\10b03Tb.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\10b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\10b09Ad.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\10b09Lb.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\10b09Wb.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\10b10Fc.wav,happiness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\10b10Lc.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\10b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11a01Aa.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\11a01Ab.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\11a01Ld.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\11a01Nd.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\11a01Wc.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Ec.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Fb.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Ld.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Nc.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Tc.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a02Wc.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\11a04Ac.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\11a04Fd.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\11a04Nd.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\11a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Ad.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Fb.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Fc.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Lc.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Na.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Td.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a05Wd.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\11a07Ac.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\11a07Ld.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\11a07Ta.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\11a07Wc.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Ab.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Eb.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Fc.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Lb.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Nc.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b01Wd.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\11b02Ab.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\11b02Fd.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\11b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\11b02Td.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\11b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Fc.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Lc.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Td.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Wa.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Ad.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Fd.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Ld.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Na.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Td.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Ad.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Ae.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Ld.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Nc.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Td.wav,sadness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\11b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\12a01Fb.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\12a01Lb.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\12a01Nb.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\12a01Wc.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\12a02Ac.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\12a02Ec.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\12a02Nb.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\12a02Wa.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\12a02Wc.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\12a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\12a05Ab.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\12a05Lb.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\12a05Nd.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\12a05Ta.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\12a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\12a07Ac.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\12a07La.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\12a07Wa.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\12b01Ta.wav,sadness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\12b01Wa.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Ad.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Ea.wav,disgust,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Fb.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Wa.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b02Wd.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\12b03La.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\12b03Ta.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\12b09Ac.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\12b09Td.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\12b09Wc.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\12b10Ac.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\12b10Ld.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\12b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Ac.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Ea.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Ec.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Fd.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Lb.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Nb.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a01Wb.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Ad.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Ec.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Fa.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Lc.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Nc.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Ta.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a02Wa.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\13a04Ac.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\13a04Fc.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\13a04Lb.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\13a04Ta.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\13a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Aa.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Ea.wav,disgust,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Lc.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Nb.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Tc.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Wa.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a05Wc.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\13a07Fd.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\13a07Lb.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\13a07Na.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\13a07Tc.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\13a07Wb.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Ab.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Ec.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Fc.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Ld.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Nc.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b01Wa.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\13b02Fb.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\13b02Lc.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\13b02Nb.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\13b02Wa.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Ac.wav,anxiety/fear,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Ed.wav,disgust,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Fd.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Lb.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Na.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Td.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b03Wc.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Ab.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Ec.wav,disgust,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Fb.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Fc.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09La.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Na.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10Ec.wav,disgust,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10Fa.wav,happiness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10La.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10Nc.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\13b10Wc.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Aa.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Ac.wav,anxiety/fear,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Ea.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Na.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Wa.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a01Wc.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Ab.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Ea.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Fd.wav,happiness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02La.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Nc.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Tb.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Wa.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a02Wc.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Aa.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Ed.wav,disgust,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Lb.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Tb.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Tc.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Wb.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Aa.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Ac.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Fa.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Fb.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Lb.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Na.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Ta.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Tc.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Wa.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Aa.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Eb.wav,disgust,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Fd.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Lc.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Ld.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Na.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Tc.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14a07Wc.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Ac.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Eb.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Fa.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Fc.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Na.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b01Wc.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Aa.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Fb.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Na.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Tc.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b02Wd.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\14b03Ad.wav,anxiety/fear,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\14b03Ed.wav,disgust,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\14b03Lb.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\14b03Ta.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\14b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Ac.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Ea.wav,disgust,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Fc.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Lb.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Td.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Wa.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b09Wc.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Ad.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Eb.wav,disgust,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Lb.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Nb.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Tc.wav,sadness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\14b10Wc.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\15a01Ea.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\15a01Fb.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\15a01La.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\15a01Nb.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\15a01Wa.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Ac.wav,anxiety/fear,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Ea.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02La.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Na.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Ta.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Wb.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a02Wd.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Ab.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Ac.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Fd.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Nc.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Wa.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a04Wb.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\15a05Eb.wav,disgust,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\15a05Fb.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\15a05Lb.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\15a05Na.wav,neutral,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\15a05Wa.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Ac.wav,anxiety/fear,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Eb.wav,disgust,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Fa.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Fb.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Ld.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15a07Nc.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\15b01Ec.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\15b01Lb.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\15b01Na.wav,neutral,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\15b01Wc.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Aa.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Lb.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Nd.wav,neutral,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Tc.wav,sadness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Wa.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b02Wc.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Aa.wav,anxiety/fear,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Lc.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Tc.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Wa.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09Ac.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09Fa.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09La.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09Nb.wav,neutral,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09Ta.wav,sadness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b09Wb.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\15b10Ac.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\15b10Lc.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\15b10Nb.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\15b10Nc.wav,neutral,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\15b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Ec.wav,disgust,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Fc.wav,happiness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Lb.wav,boredom,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Nc.wav,neutral,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Tb.wav,sadness,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a01Wb.wav,anger,The tablecloth is lying on the fridge
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Ea.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Ec.wav,disgust,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Lb.wav,boredom,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Nb.wav,neutral,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Tc.wav,sadness,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a02Wb.wav,anger,She wants to hand that in on Wednesday
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Ab.wav,anxiety/fear,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Ea.wav,disgust,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Fa.wav,happiness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04La.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Lc.wav,boredom,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Nc.wav,neutral,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Tc.wav,sadness,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Wb.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a04Wc.wav,anger,I could tell him Tonight
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Ab.wav,anxiety/fear,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Ea.wav,disgust,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Fc.wav,happiness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05La.wav,boredom,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Tb.wav,sadness,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Wb.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a05Wc.wav,anger,The black piece of paper is up there next to the piece of wood
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Ea.wav,disgust,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Fa.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Fb.wav,happiness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07La.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Lb.wav,boredom,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Nb.wav,neutral,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Td.wav,sadness,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16a07Wa.wav,anger,It will be ready in seven hours
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Aa.wav,anxiety/fear,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Eb.wav,disgust,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Fa.wav,happiness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01La.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Lc.wav,boredom,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Tb.wav,sadness,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Wa.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b01Wb.wav,anger,What kind of bags are there under the table
+datasources\EMO_DB\EMO_DB_DATA\wav\16b02Aa.wav,anxiety/fear,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\16b02Eb.wav,disgust,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\16b02Fd.wav,happiness,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\16b02Lb.wav,boredom,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\16b02Wb.wav,anger,They just carried it up and now they're going down again
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Ad.wav,anxiety/fear,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Ea.wav,disgust,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Fa.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Fd.wav,happiness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03La.wav,boredom,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Nb.wav,neutral,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Ta.wav,sadness,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b03Wb.wav,anger,I used to go home on the weekends and visit Agnes
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09Ab.wav,anxiety/fear,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09Eb.wav,disgust,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09Fb.wav,happiness,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09La.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09Lb.wav,boredom,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b09Wb.wav,anger,I want to take that away and then go have a drink with Karl
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Aa.wav,anxiety/fear,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Eb.wav,disgust,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Fb.wav,happiness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Lb.wav,boredom,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Tb.wav,sadness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Td.wav,sadness,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Wa.wav,anger,It will be in the place where we always put it
+datasources\EMO_DB\EMO_DB_DATA\wav\16b10Wb.wav,anger,It will be in the place where we always put it

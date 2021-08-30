@@ -77,12 +77,13 @@ def labelAllAudioFiles(identifierDict, rootSearchPath, specificExt):
                     else:
                         possibleIdentifiers = identifierDict[k]["keyValue"].keys()
                         identifierIndex = identifierDict[k]["index"]
+                        identifierSize = identifierDict[k]["size"]
                         # Compare the actual file identifier with the values as defined in *_KEYS.json
-                        fileIdValue = filenameComponents[identifierIndex]
+                        fileIdValue = filenameComponents[identifierIndex:(identifierIndex+identifierSize)]
                         if fileIdValue in possibleIdentifiers:
                             fileInfo[k] = identifierDict[k]["keyValue"][fileIdValue]
                         else:
-                            print("WARNING - Unable to determine filename identifier")
+                            print("WARNING - Unable to determine filename identifier (", fileIdValue, ")")
 
                 # Store the file path, and the file info dict
                 result[os.path.join(root, file)] = fileInfo
