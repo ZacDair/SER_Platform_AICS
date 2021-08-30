@@ -8,7 +8,7 @@ This repository contains the code to create and conduct emotion recognition expe
 1. Clone this repository.
 1. Install the required dependencies:
     * This can be done with: ```python setup.py build``` and then ```python setup.py install```
-    * or using the [requirements.txt]() file
+    * or using the [requirements.txt](https://github.com/ZacDair/emo_detect/blob/main/requirements.txt) file
 1. Add an audio dataset following the instructions below
 
 ## Adding an Audio Dataset
@@ -40,7 +40,7 @@ This repository contains the code to create and conduct emotion recognition expe
 **NOTE:** The DATASOURCE_NAME directory and DATASOURCE_KEYS.json are **important**
 
 2. Create a **DATASOURCE_NAME**_KEYS.json file (replacing **DATASOURCE_NAME** with the appropriate name)
-    * For examples see [EMO_DB_KEYS.json]() and [RAVDESS_KEYS.json]()
+    * For examples see [EMO_DB_KEYS.json](https://github.com/ZacDair/emo_detect/blob/main/datasources/EMO_DB/EMO_DB_KEYS.json) and [RAVDESS_KEYS.json](https://github.com/ZacDair/emo_detect/blob/main/datasources/RAVDESS/RAVDESS_KEYS.json)
 1. Populate the _KEYS.json with the desired identifiers
 1. Create or run an experiment
 
@@ -52,23 +52,25 @@ This involves the labelling of the audio files as per their filename identifiers
 
 ### Customizing or Editing ```experiment_1()```
 A number of parameters and values can be changed tweaking many aspects of the project.  
-Such as the input datasource: `dataOriginName = "EMO_DB"` on line 22 of [main.py]()  
+Such as the input datasource: `dataOriginName = "EMO_DB"` on line 22 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L22)  
 
-Audio feature hyperparameters such as sample rate or other important [librosa]() function arguments: `argDict = {'mfcc': {'n_mfcc': 12, 'sr': 48000}` on line 42 of [main.py]()  
+Audio feature hyperparameters such as sample rate or other important [librosa](https://librosa.org/) function arguments: `argDict = {'mfcc': {'n_mfcc': 12, 'sr': 48000}` on line 42 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L42)  
 
-Duration, Sample Rate, Verbosity of the feature extraction process: `dataDF = feature_extraction_audio.extractFeatures(dataDF, featureSet, argDict, True, 48000, 4)` the last three parameters on line 50 of [main.py]()  
+Duration, Sample Rate, Verbosity of the feature extraction process: `dataDF = feature_extraction_audio.extractFeatures(dataDF, featureSet, argDict, True, 48000, 4)` the last three parameters on line 50 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L50)  
 
-Emotions or other labels can be altered: `dataDF['emotion'] = dataDF['emotion'].replace("calm", "neutral")` replacing **calm** with **neutral** on line 63 of [main.py]()  
+Emotions or other labels can be altered: `dataDF['emotion'] = dataDF['emotion'].replace("calm", "neutral")` replacing **calm** with **neutral** on line 63 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L63)  
 
-Model parameters such as batch size or epoch length: `model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 150)` the last two parameters on line 77 of [main.py]()  
+The audio feature or features to use: `featureDataFrame = dataDF['mfcc'].values.tolist()` on line 65 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L68)
+
+Model parameters such as batch size or epoch length: `model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 150)` the last two parameters on line 77 of [main.py](https://github.com/ZacDair/emo_detect/blob/69f083e026dbd997b2df8c1d001fff25052f0305/main.py#L77)  
 
 More granular parameters can be changed inside the respective .py files (model params in model_creation_audio.py, feature extraction params in feature_extraction_audio.py, etc)
 
-Additionally, the [config.py]() file contains the dictionary `cfg` which contains a number of useful paths and other data that can be edited if needed (for example the save location of models)
+Additionally, the [config.py](https://github.com/ZacDair/emo_detect/blob/main/config.py) file contains the dictionary `cfg` which contains a number of useful paths and other data that can be edited if needed (for example the save location of models)
 
 
 ## Viewing Results
-The experiment outputs the results as it goes, however, to review these post run the [results]() directory will contain subdirectories for each experiment run, detailing the dataset and time conducted, inside this directory will be the train/test history, confusion matrix, classification reports, and the models.
+The experiment outputs the results as it goes, however, to review these post run the [results](https://github.com/ZacDair/emo_detect/tree/main/results) directory will contain subdirectories for each experiment run, detailing the dataset and time conducted, inside this directory will be the train/test history, confusion matrix, classification reports, and the models.
 
 
 ## Audio Datasets
