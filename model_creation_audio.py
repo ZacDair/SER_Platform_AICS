@@ -75,7 +75,6 @@ def run_model_audio(featureDF, fullDF, labelKey, kfoldSplits, origin, batchSize,
     mX = []
     mY = []
     for trainIndex, testIndex, in kf.split(featureDF):
-        print(featureDF.shape)
 
         xTrain, xTest = featureDF[trainIndex], featureDF[testIndex]
         yTrain, yTest = labelDF[trainIndex], labelDF[testIndex]
@@ -110,4 +109,33 @@ def run_model_audio(featureDF, fullDF, labelKey, kfoldSplits, origin, batchSize,
     print("Avg Accuracy:", totalAcc / kfoldSplits)
     return bestModel
 
+
+# Run the audio model
+def run_pretrained_model_audio(featureDF, fullDF, labelKey, origin, AP_Model):
+
+    labelDF, lEncoder = encodeLabels(fullDF, labelKey)
+    originalLabelDF = fullDF[labelKey]
+
+    iteration = 0
+    mX = []
+    mY = []
+
+    featureDF = np.expand_dims(featureDF, axis=2)
+    pred = AP_Model.predict(featureDF)
+
+    mX.extend(pred)
+    mY.extend(labelDF)
+
+    decodedPreds = decodePredictions(pred, lEncoder)
+    print("\nPredictions:\n", decodedPreds)
+
+    score = metrics.accuracy_score(originalLabelDF, decodedPreds)
+    print("Model Accuracy:", score)
+    print("Conf Matrix:\n", metrics.confusion_matrix(originalLabelDF, decodedPreds))
+    print(metrics.classification_report(originalLabelDF, decodedPreds))
+
+    # Store the results from our model
+    model_evaluation_audio.storeCnnResults(iteration, origin, "", decodedPreds, originalLabelDF, AP_Model)
+
+    clear_session()
 

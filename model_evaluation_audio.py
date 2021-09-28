@@ -1,4 +1,6 @@
 # External Imports
+from itertools import cycle
+
 import matplotlib.pyplot as plt
 import os
 import time
@@ -6,9 +8,13 @@ import numpy as np
 from sklearn import metrics
 import pickle
 from keras.models import model_from_json
+import pandas as pd
 
 
 # Project Level Imports
+from sklearn.metrics import roc_curve, auc
+from sklearn.preprocessing import label_binarize
+
 import config
 
 
@@ -35,6 +41,15 @@ def plot_cnn_history(history, titleDetail):
     plt.legend()
 
     saveLoc = os.path.join(config.runtimeCfg["model_result_path"], titleDetail + "-cnnHistory.png")
+    print(saveLoc)
+    plt.savefig(saveLoc)
+
+    plt.show()
+
+
+def plot_roc_curve(labels, predictions, titleDetail):
+
+    saveLoc = os.path.join(config.runtimeCfg["model_result_path"], titleDetail + "-ROC.png")
     print(saveLoc)
     plt.savefig(saveLoc)
 
@@ -122,7 +137,9 @@ def storeCnnResults(iteration, origin, cnnHistory, predictions, labels, model):
         modelTitle = origin+"-iter-"+str(iteration)
 
         # Save the results
-        plot_cnn_history(cnnHistory, modelTitle)
+        if cnnHistory != "":
+            plot_cnn_history(cnnHistory, modelTitle)
+        # plot_roc_curve(labels, predictions, modelTitle)
         storeConfMatrix(labels, predictions, modelTitle)
         storeClassReport(labels, predictions, modelTitle)
 

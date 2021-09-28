@@ -97,7 +97,3 @@ def loadPickle(filename, origin):
     except FileNotFoundError:
         print("IO ERROR - File ("+filePath+".pickle) was not found.")
         exit(-1)
-
-
-
-

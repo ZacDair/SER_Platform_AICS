@@ -7,6 +7,8 @@ import datasource_analysis
 import feature_extraction_audio
 import io_operations
 import model_creation_audio
+import model_evaluation_audio
+import config
 
 
 def experiment_1():
@@ -70,11 +72,18 @@ def experiment_1():
 
     # TODO: Find permutations irrespective of location, & considering empty positions as valid ([x], [x, x1]-->[x...x6])
     # Get all permutations of the features list
-    # for perm in itertools.permutations(featureSet):
-    #    print(perm)
+    #for perm in itertools.combinations(featureSet, len(featureSet)):
+       #print(perm)
 
     # Run our model code
-    model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 150)
+    #model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 10)
+
+    # Load a pre-trained model
+    weightFile = "D:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.h5"
+    modelFile = "D:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.json"
+    pretrained_model = model_evaluation_audio.loadJsonModel(weightFile, modelFile)
+
+    model_creation_audio.run_pretrained_model_audio(featureDataFrame, dataDF, "emotion", dataOriginName, pretrained_model)
 
 
 experiment_1()
