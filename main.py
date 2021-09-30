@@ -49,7 +49,7 @@ def experiment_1():
         print(dataDF)
     else:
         # Run the feature extraction loop function
-        dataDF = feature_extraction_audio.extractFeatures(dataDF, featureSet, argDict, True, 48000, 4)
+        dataDF = feature_extraction_audio.extractFeatures(dataDF, featureSet, argDict, True, 48000, 3)
         print()
         # Persist the features to disk, in a loadable pickle form, and viewable csv
         io_operations.savePickle(dataDF, featureOutputFilename, dataOriginName)
@@ -63,27 +63,39 @@ def experiment_1():
     # Extract the audio features from the dataframe
     # Replace calm with neutral
     dataDF['emotion'] = dataDF['emotion'].replace("calm", "neutral")
+
+    # Merge gender and emotion
+    # dataDF['emotion'] = dataDF[['gender', 'emotion']].agg('-'.join, axis=1)
+
     print("Class Distribution:")
     print(dataDF['emotion'].value_counts())
 
+    # Run model for each permutation of the features
+    # counter = 1
+    # for perm in itertools.permutations(featureSet, len(featureSet)):
+    #     for val in list(perm):
+    #         if counter == 1:
+    #             dataDF['features'] = dataDF[val]
+    #         else:
+    #             dataDF['features'] = dataDF['features']+dataDF[val]
+
+    # Merge Features into singular vector
+    dataDF['feature'] = dataDF['mfcc'] + dataDF['melspectrogram']
+    print(dataDF['feature'])
+
     # Select our feature and convert to the required shape
-    featureDataFrame = dataDF['mfcc'].values.tolist()
+    featureDataFrame = dataDF['feature'].values.tolist()
     featureDataFrame = np.asarray(featureDataFrame)
 
-    # TODO: Find permutations irrespective of location, & considering empty positions as valid ([x], [x, x1]-->[x...x6])
-    # Get all permutations of the features list
-    #for perm in itertools.combinations(featureSet, len(featureSet)):
-       #print(perm)
-
     # Run our model code
-    #model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 10)
+    model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 150)
 
     # Load a pre-trained model
-    weightFile = "D:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.h5"
-    modelFile = "D:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.json"
-    pretrained_model = model_evaluation_audio.loadJsonModel(weightFile, modelFile)
-
-    model_creation_audio.run_pretrained_model_audio(featureDataFrame, dataDF, "emotion", dataOriginName, pretrained_model)
+    # weightFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.h5"
+    # modelFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.json"
+    # pretrained_model = model_evaluation_audio.loadJsonModel(weightFile, modelFile)
+    #
+    # model_creation_audio.run_pretrained_model_audio(featureDataFrame, dataDF, "emotion", dataOriginName, pretrained_model)
 
 
 experiment_1()

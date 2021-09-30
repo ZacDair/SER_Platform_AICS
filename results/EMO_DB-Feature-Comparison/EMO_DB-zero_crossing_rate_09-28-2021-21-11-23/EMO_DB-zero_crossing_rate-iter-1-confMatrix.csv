@@ -1,0 +1,8 @@
+,anger,happiness,sadness,neutral,boredom,anxiety/fear,disgust
+anger,19,0,0,0,0,1,0
+happiness,18,0,0,0,0,3,0
+sadness,4,0,0,0,0,15,0
+neutral,4,0,0,0,0,1,0
+boredom,6,0,0,0,0,8,0
+anxiety/fear,2,0,0,0,0,14,0
+disgust,0,0,0,0,0,12,0

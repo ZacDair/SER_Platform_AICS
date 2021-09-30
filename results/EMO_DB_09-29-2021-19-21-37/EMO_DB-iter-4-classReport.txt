@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+       anger       0.83      0.96      0.89        25
+anxiety/fear       0.88      0.54      0.67        13
+     boredom       0.69      0.46      0.55        24
+     disgust       0.50      0.67      0.57         3
+   happiness       1.00      0.55      0.71        11
+     neutral       0.52      0.75      0.61        20
+     sadness       0.67      0.91      0.77        11
+
+    accuracy                           0.70       107
+   macro avg       0.72      0.69      0.68       107
+weighted avg       0.74      0.70      0.69       107

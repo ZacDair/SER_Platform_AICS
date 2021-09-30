@@ -53,6 +53,8 @@ def labelAllAudioFiles(identifierDict, rootSearchPath, specificExt):
     if "statements" in identifierDict.keys():
         if identifierDict["statements"] != "":
             hasStatements = True
+        else:
+            print("Warning - No statements given, using transcription. This may take some time.")
 
     # Store the file info as a dict, path as key
     result = {}
@@ -66,13 +68,14 @@ def labelAllAudioFiles(identifierDict, rootSearchPath, specificExt):
             if delimiter != "":
                 filenameComponents = filenameComponents.split(delimiter)
 
-            if specificExt != "":
+            if specificExt == "" or file.endswith(specificExt):
+
                 # For each of the file identifier categories (emotion, gender, modality, etc)
                 fileInfo = dict.fromkeys(identifierDict.keys())
                 for k in identifierDict.keys():
                     # When no statements are given transcribe
                     if k == "statements" and not hasStatements:
-                        print("Warning - No statements given, using transcription. This may take some time.")
+                        print("Transcribing Speech From File:", file)
                         fileInfo[k] = transcription.transcribe(os.path.join(root, file))
                     else:
                         possibleIdentifiers = identifierDict[k]["keyValue"].keys()
@@ -83,7 +86,7 @@ def labelAllAudioFiles(identifierDict, rootSearchPath, specificExt):
                         if fileIdValue in possibleIdentifiers:
                             fileInfo[k] = identifierDict[k]["keyValue"][fileIdValue]
                         else:
-                            print("WARNING - Unable to determine filename identifier (", fileIdValue, ")")
+                            print("WARNING - Unable to determine filename identifier (", fileIdValue, ") for file:", file)
 
                 # Store the file path, and the file info dict
                 result[os.path.join(root, file)] = fileInfo

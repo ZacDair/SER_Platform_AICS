@@ -1,0 +1,8 @@
+,neutral,happy,angry,fearful,sad,disgust,surprised
+neutral,19,2,7,1,1,0,6
+happy,5,12,7,3,2,1,6
+angry,6,2,12,8,3,4,6
+fearful,3,6,6,11,5,2,2
+sad,2,1,2,9,41,1,5
+disgust,2,3,2,6,17,5,3
+surprised,5,5,4,7,7,1,12

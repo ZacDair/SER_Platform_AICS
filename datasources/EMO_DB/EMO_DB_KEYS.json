@@ -23,6 +23,21 @@
 			"b09": "I want to take that away and then go have a drink with Karl",
 			"b10": "It will be in the place where we always put it"
 		}
-
+	},
+	"gender": {
+		"index": 0,
+		"size": 2,
+		"keyValue":{
+			"03": "male",
+			"08": "female",
+			"09": "female",
+			"10": "male",
+			"11": "male",
+			"12": "male",
+			"13": "female",
+			"14": "female",
+			"15": "male",
+			"16": "female"
+		}
 	}
 }

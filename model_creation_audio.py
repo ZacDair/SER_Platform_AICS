@@ -1,5 +1,5 @@
 # External Imports
-from keras.layers import Dense, Conv1D, Flatten, Dropout, Activation, MaxPooling1D
+from keras.layers import Dense, Conv1D, Flatten, Dropout, Activation, MaxPooling1D, BatchNormalization
 from keras.models import Sequential
 from sklearn.model_selection import KFold
 from sklearn import metrics
@@ -33,14 +33,14 @@ def decodePredictions(predictions, labelEncoder):
 # Create a CNN model using the specified structure
 def model_create_CNN(inputShape, outputShape):
     model = Sequential()
-    model.add(Conv1D(128, 5, padding='same',
+    model.add(Conv1D(256, 5, padding='same',
                      input_shape=inputShape))
     model.add(Activation('relu'))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.2))  # 0.8 - lead to lower accuracy, less spread
     # model.add(MaxPooling1D(pool_size=(8)))
     model.add(Conv1D(128, 5, padding='same'))
     model.add(Activation('relu'))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.2))  # 0.2 - lead to lower accuracy, less spread
     model.add(Flatten())
     model.add(Dense(outputShape))
     model.add(Activation('softmax'))
@@ -71,6 +71,7 @@ def run_model_audio(featureDF, fullDF, labelKey, kfoldSplits, origin, batchSize,
     iteration = 0
     totalAcc = 0
     bestAcc = 0
+    accuracies = []
     bestModel = ""
     mX = []
     mY = []
@@ -93,6 +94,7 @@ def run_model_audio(featureDF, fullDF, labelKey, kfoldSplits, origin, batchSize,
         print("\nPredictions:\n", decodedPreds)
 
         score = metrics.accuracy_score(originalLabelDF[testIndex], decodedPreds)
+        accuracies.append(score)
         if score > bestAcc:
             bestModel = AP_Model
             bestAcc = score
@@ -106,7 +108,8 @@ def run_model_audio(featureDF, fullDF, labelKey, kfoldSplits, origin, batchSize,
 
         clear_session()
         iteration += 1
-    print("Avg Accuracy:", totalAcc / kfoldSplits)
+    #print("Avg Accuracy:", totalAcc / kfoldSplits)
+    print("Run Summary:\nMin:", min(accuracies), "\nMax:", max(accuracies), "\nMean:", totalAcc/kfoldSplits)
     return bestModel
 
 

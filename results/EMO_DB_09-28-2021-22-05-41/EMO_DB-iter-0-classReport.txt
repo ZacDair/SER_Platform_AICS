@@ -1,0 +1,20 @@
+                     precision    recall  f1-score   support
+
+       female-anger       0.80      0.80      0.80        10
+female-anxiety/fear       0.86      1.00      0.92         6
+     female-boredom       0.90      0.90      0.90        10
+     female-disgust       0.60      0.86      0.71         7
+   female-happiness       0.75      0.38      0.50         8
+     female-neutral       0.89      0.89      0.89         9
+     female-sadness       0.89      1.00      0.94         8
+         male-anger       0.94      1.00      0.97        15
+  male-anxiety/fear       0.20      1.00      0.33         1
+       male-boredom       0.50      0.86      0.63         7
+       male-disgust       0.00      0.00      0.00         3
+     male-happiness       1.00      0.50      0.67         4
+       male-neutral       0.75      0.27      0.40        11
+       male-sadness       0.89      1.00      0.94         8
+
+           accuracy                           0.78       107
+          macro avg       0.71      0.75      0.69       107
+       weighted avg       0.79      0.78      0.76       107

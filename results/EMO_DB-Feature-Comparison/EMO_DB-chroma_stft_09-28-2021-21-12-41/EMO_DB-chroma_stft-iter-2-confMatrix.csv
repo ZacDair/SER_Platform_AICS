@@ -1,0 +1,8 @@
+,neutral,anger,sadness,happiness,boredom,disgust,anxiety/fear
+neutral,23,0,0,0,2,1,0
+anger,4,2,4,0,0,2,2
+sadness,4,0,4,0,1,4,0
+happiness,1,0,0,6,0,2,1
+boredom,5,0,1,0,4,0,0
+disgust,5,0,2,1,0,10,0
+anxiety/fear,0,0,1,0,0,8,7

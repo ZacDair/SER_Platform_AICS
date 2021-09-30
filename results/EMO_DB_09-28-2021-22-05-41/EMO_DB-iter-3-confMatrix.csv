@@ -1,0 +1,15 @@
+,male-happiness,male-sadness,male-boredom,male-neutral,female-anxiety/fear,female-anger,female-sadness,female-boredom,female-happiness,female-neutral,female-disgust,male-anger,male-anxiety/fear,male-disgust
+male-happiness,7,0,0,0,2,0,0,0,0,0,0,0,0,0
+male-sadness,2,6,0,2,0,0,0,0,0,0,0,0,0,0
+male-boredom,0,0,5,0,0,2,0,0,0,0,0,0,0,0
+male-neutral,1,1,0,4,1,0,0,0,0,0,0,0,0,0
+female-anxiety/fear,7,0,0,1,7,0,0,0,0,0,0,0,0,0
+female-anger,0,0,0,0,0,7,0,0,0,0,0,0,0,0
+female-sadness,0,0,0,0,0,0,11,0,0,0,0,0,0,0
+female-boredom,0,0,0,0,0,0,0,7,1,0,0,0,0,0
+female-happiness,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+female-neutral,0,0,0,0,0,0,0,0,0,5,0,0,1,1
+female-disgust,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+male-anger,0,0,0,1,0,0,0,1,0,0,0,5,0,0
+male-anxiety/fear,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+male-disgust,0,0,0,0,0,0,0,0,0,1,0,0,0,4

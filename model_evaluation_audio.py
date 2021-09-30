@@ -59,9 +59,15 @@ def plot_roc_curve(labels, predictions, titleDetail):
 # Store confusion matrix
 def storeConfMatrix(labels, predictions, titleDetail):
     saveLoc = os.path.join(config.runtimeCfg["model_result_path"], titleDetail + "-confMatrix"+".txt")
+    # Write as plain text
     with open(saveLoc, "w") as f:
         f.writelines(np.array2string(metrics.confusion_matrix(labels, predictions)))
     f.close()
+    # Write as labelled Pandas DataFrame
+    saveLoc = os.path.join(config.runtimeCfg["model_result_path"], titleDetail + "-confMatrix" + ".csv")
+    uniqueLabels = labels.unique()
+    confDF = pd.DataFrame(metrics.confusion_matrix(labels, predictions), columns=uniqueLabels, index=uniqueLabels)
+    confDF.to_csv(saveLoc, sep=",")
 
 
 # Store classification report
