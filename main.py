@@ -19,9 +19,9 @@ def experiment_1():
     """
 
     # Define parameters to use for labelling
-    labellingFilename = "Labelled_EMO_DB_AUDIO"
+    labellingFilename = "Labelled_SUBESCO_AUDIO"
     featureOutputFilename = "mfcc(12)_zcr_cc_plus48khz"
-    dataOriginName = "EMO_DB"
+    dataOriginName = "SUBESCO"
 
     # Check for presence or absence of the specified file (create or load file)
     if io_operations.checkIfFileExists(labellingFilename+".csv", dataOriginName):
@@ -79,6 +79,20 @@ def experiment_1():
     #         else:
     #             dataDF['features'] = dataDF['features']+dataDF[val]
 
+    # Select our feature and convert to the required shape
+    featureDataFrame = dataDF['mfcc'].values.tolist()
+    featureDataFrame = np.asarray(featureDataFrame)
+
+    # Run our model code
+    model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName+"_MFCC", 128, 150)
+
+    # Load a pre-trained model
+    # weightFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.h5"
+    # modelFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.json"
+    # pretrained_model = model_evaluation_audio.loadJsonModel(weightFile, modelFile)
+    #
+    # model_creation_audio.run_pretrained_model_audio(featureDataFrame, dataDF, "emotion", dataOriginName, pretrained_model)
+
     # Merge Features into singular vector
     dataDF['feature'] = dataDF['mfcc'] + dataDF['melspectrogram']
     print(dataDF['feature'])
@@ -88,14 +102,7 @@ def experiment_1():
     featureDataFrame = np.asarray(featureDataFrame)
 
     # Run our model code
-    model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName, 128, 150)
-
-    # Load a pre-trained model
-    # weightFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.h5"
-    # modelFile = "F:\\emo_detect\\results\\EMO_DB_08-30-2021-16-21-25\\EMO_DB-iter-0\\EMO_DB-iter-0.json"
-    # pretrained_model = model_evaluation_audio.loadJsonModel(weightFile, modelFile)
-    #
-    # model_creation_audio.run_pretrained_model_audio(featureDataFrame, dataDF, "emotion", dataOriginName, pretrained_model)
+    model_creation_audio.run_model_audio(featureDataFrame, dataDF, "emotion", 5, dataOriginName+"_MFCC-MELSPEC", 128, 150)
 
 
 experiment_1()
