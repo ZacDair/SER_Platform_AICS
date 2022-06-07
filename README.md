@@ -141,7 +141,8 @@ Please make sure to update tests as appropriate.
 
 ## Attribution
 When using the contens of this repository in your research, please cite:
-```@article{https://doi.org/10.48550/arxiv.2112.09596,
+```
+@article{https://doi.org/10.48550/arxiv.2112.09596,
   doi = {10.48550/ARXIV.2112.09596},  
   url = {https://arxiv.org/abs/2112.09596},  
   author = {Dair, Zachary and Donovan, Ryan and O'Reilly, Ruairi},  
@@ -150,4 +151,4 @@ When using the contens of this repository in your research, please cite:
   publisher = {arXiv},  
   year = {2021},  
   copyright = {Creative Commons Attribution 4.0 International}
-}
+}```
