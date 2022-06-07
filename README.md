@@ -138,3 +138,16 @@ experiment_1()
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Attribution
+When using the contens of this repository in your research, please cite:
+@article{https://doi.org/10.48550/arxiv.2112.09596,
+  doi = {10.48550/ARXIV.2112.09596},  
+  url = {https://arxiv.org/abs/2112.09596},  
+  author = {Dair, Zachary and Donovan, Ryan and O'Reilly, Ruairi},  
+  keywords = {Sound (cs.SD), Audio and Speech Processing (eess.AS), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, I.2; J.2, 91C99},  
+  title = {Linguistic and Gender Variation in Speech Emotion Recognition using Spectral Features},  
+  publisher = {arXiv},  
+  year = {2021},  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
